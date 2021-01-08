@@ -232,14 +232,7 @@ function isItBob(obj, cb){
 */
 
 //CODE HERE
-function giveMeDoubles(arr, cb){
-  let doubledNumbers = [1, 2, 3, 4]
-
-  for(let i = 0; 1 < doubledNumbers.length; i++ ){
-    doubledNumbers[i] *= 2
-  }
-}
-//////////////////PROBLEM 18////////////////////
+///////////PROBLEM 18////////////////////
 /*
   Write a function called carFactory that takes in three parameters: a make, model, and year.  
   When the function is invoked:
@@ -265,3 +258,19 @@ function giveMeDoubles(arr, cb){
 */
 
 //CODE HERE
+
+function carFactory(make,model, year){
+  const carInfo = {
+    make: `Tesla`,
+    model: `Spaceship`,
+    year: 2017,
+  }
+  if (year > 2018){
+    carInfo.isNew = true
+  }
+  else {
+    carInfo.isNew = false
+  }
+  
+  return carInfo
+}
