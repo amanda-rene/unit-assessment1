@@ -1,0 +1,60 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 175px;
+    border: 5px solid black;
+    background-color: coral;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+h1{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 100px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+}
+
+
+.html-box {
+    width: 100%;
+    border: black dotted;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.html-logo{
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.css-box {
+    width: 100%;
+    border: black dotted;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.css-logo{
+    float: right;
+    padding: 0 10px 0 0;
+}
